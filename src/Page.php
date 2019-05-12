@@ -131,6 +131,7 @@ class Page
         );
 
         $result = new \stdClass();
+        $result->filename = $response->result->filename;
         $result->html = $response->result->html;
         $result->images = $response->result->images;
         $result->css = $response->result->css;
@@ -153,6 +154,7 @@ class Page
         );
 
         $result = new \stdClass();
+        $result->filename = $response->result->filename;
         $result->html = $response->result->html;
         $result->images = $response->result->images;
         $result->css = $response->result->css;
